@@ -13,8 +13,18 @@ body {
     background: black;
 }
 
+
+.container {
+    padding: 1rem;
+    text-align: center;
+}
+
+.header {
+    display: block;
+}
+
 #profile-pic {
-    height: 30rem;
+    height: 350px;
     width: auto;
     border-radius: 50%;
     border: 2px solid white;
@@ -33,3 +43,16 @@ body {
     width: 4rem;
     fill: white;
 }
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.2rem;
+}
+
+hr {
+    margin: 4px 0 12px 0;
+}
+
+
+
