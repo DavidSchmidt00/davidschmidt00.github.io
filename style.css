@@ -24,7 +24,11 @@ body {
 }
 
 #profile-pic {
+<<<<<<< HEAD
     height: 350px;
+=======
+    height: 40rem;
+>>>>>>> 62124f0050c40610e5626edd0663ab9b0b22bff0
     width: auto;
     border-radius: 50%;
     border: 2px solid white;
@@ -43,6 +47,7 @@ body {
     width: 4rem;
     fill: white;
 }
+<<<<<<< HEAD
 
 h1 {
     margin: 0;
@@ -56,3 +61,5 @@ hr {
 
 
 
+=======
+>>>>>>> 62124f0050c40610e5626edd0663ab9b0b22bff0
