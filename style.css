@@ -1,6 +1,11 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,15 +68,15 @@ hr {
 
 .image-container {
     position: relative;
-    max-width: 350px;
+    max-width: 400px;
     margin: 0 auto 10px auto;
-    
+    overflow: hidden;
 }
 
 #profile-pic {
     width: 100%;
     height: 100%;
-    max-width: 350px;
+    max-width: 400;
     border-radius: 50%;
 }
 
@@ -79,7 +84,7 @@ hr {
     position: absolute;
     width: 100%;
     height: 100%;
-    max-width: 350px;
+    max-width: 400px;
     border-radius: 50%;
     border-top: 2px dashed #fffff;
     border-right: 2px dashed #ffffff;
@@ -87,8 +92,7 @@ hr {
     border-bottom: 2px dashed #fffff;
     padding: 0px;
     margin: 0px;
-    animation: spin 6s infinite ease-in-out;
-    
+    animation: spin 6s infinite ease-in-out;   
 }
 
 @keyframes spin {
