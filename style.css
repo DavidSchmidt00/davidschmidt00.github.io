@@ -1,11 +1,8 @@
 html{
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
 }
 
 body {
-    height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +10,13 @@ body {
     font-family: 'Roboto', sans-serif;
     background: black;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+
+footer{
+    flex-basis: 5%;
+    margin-top: 10px;
 }
 
 
@@ -22,18 +26,17 @@ footer a{
 
 
 .impressum-container{
-    display: inline;
-    width: 60%;
-    min-width: 400px;
-    padding: 1rem;
+    max-width: 600px;
+    height: 100%;
+    margin: 50px 10px;
 }
 
 .profile-container {
     text-align: center;
     width: 60%;
     max-width: 600px;
-    min-width: 400px;
-    padding: 1rem;
+    min-width: 300px;
+    flex-basis: 95%;
 }
 
 
