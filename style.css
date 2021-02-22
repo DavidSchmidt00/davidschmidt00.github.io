@@ -54,7 +54,10 @@ footer a{
 }
 
 .social-media-row img:hover{
+    border-radius: 50%;
+    border: 2px solid black;
     filter: invert(100%);
+    
 }
 
 h1 {
