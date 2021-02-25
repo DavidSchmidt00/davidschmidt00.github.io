@@ -13,17 +13,6 @@ body {
     min-height: 100vh;
 }
 
-
-footer{
-    margin-top: 10px;
-}
-
-
-footer a{
-    font-size: 15px;
-}
-
-
 .impressum-container{
     max-width: 1000px;
     height: 100%;
@@ -36,8 +25,6 @@ footer a{
     max-width: 600px;
     min-width: 300px;
 }
-
-
 
 .social-media-row {
     width: 100%;
@@ -127,4 +114,14 @@ hr {
 
 a {
     color: turquoise;
+}
+
+
+footer{
+    margin-top: 10px;
+}
+
+
+footer a{
+    font-size: 15px;
 }
