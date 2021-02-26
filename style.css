@@ -18,7 +18,7 @@ body {
     color: white;
     background: black;
     font-family: 'Roboto', sans-serif;
-    
+    overflow: hidden;
 }
 
 .content{
@@ -43,11 +43,11 @@ body {
 }
 
 .detail-view{
-    margin: 20px 0;
+    margin: 20px 30px;
     max-width: 600px;
-    padding: 0 30px;
     min-height: calc(100% - 64px);
     scroll-snap-align: start;
+    position: relative;
 }
 
 .detail-view h2{
@@ -56,6 +56,21 @@ body {
 
 .detail-view p{
     text-align: justify;
+}
+
+.double-img{
+    display: flex;
+    align-items: center;
+}
+
+.double-img a{
+    width: 40%;
+    max-width: 200px;
+    margin: auto;
+}
+
+.double-img a img{
+    width: 100%;
 }
 
 .impressum-container{
