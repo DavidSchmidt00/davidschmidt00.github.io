@@ -230,12 +230,8 @@ footer a{
     #turn{ display:flex; }
     .content{ display:none; }
 }
-@media screen and (orientation: portrait){
-    #turn{ display:none; }
-    .content{ display:flex; }
-}
 
-@media only screen and (min-width: 700px) {
+@media screen and (min-height: 700px) {
     #turn{ display:none; }
     .content{ display:flex; }
 }
