@@ -1,3 +1,7 @@
+User-agent: Googlebot-Image
+Allow: /img/me.webp
+Disallow: /img/
+
+
 User-Agent: *
 Allow: /
-
